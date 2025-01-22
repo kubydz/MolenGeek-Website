@@ -226,7 +226,7 @@ section {
   z-index: 2;
   top: 1.5rem;
   left: 1.5rem;
-  font-size: 1.8rem;
+  font-size: 2.2rem;
   letter-spacing: 0.3rem;
 }
 
@@ -324,7 +324,7 @@ section#contact {
 
 /* /// Carousel /// */
   section {
-      background-color: rgb(56, 55, 55);
+      background-color: rgb(36, 36, 36);
       padding: 50px 0;
       padding-top: 120px;
   }
@@ -408,18 +408,27 @@ section#contact {
           max-height:400px;
       }
       
+      
       figcaption {
           align-self: flex-end;
           padding: 20px 20px 0 20px;
           flex: 0 0 auto;
-          width: 25%;
+          width: 35%;
           min-width: 150px;
+          line-height:24px;
       }
+        
+
       
       .credit {
           margin-top: 1rem;
-          color: rgba(0, 0, 0, 0.5);
-          display: block;        
+          color: rgba(46, 45, 45, 0.891);
+          display: flex;        
+          background-color: rgba(233, 231, 231, 0.686);
+          align-items: center;
+          justify-content: center;
+
+
       }
       
       &.scrollable {
@@ -471,4 +480,8 @@ section#contact {
           object-fit: cover;
           min-height: 151px;
       }
+  }
+
+  #credit{
+    color: blueviolet;
   }
