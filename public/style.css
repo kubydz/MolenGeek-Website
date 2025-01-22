@@ -422,7 +422,7 @@ section#contact {
       
       .credit {
           margin-top: 1rem;
-          color: rgba(46, 45, 45, 0.891);
+          color: rgb(218, 11, 11);
           display: flex;        
           background-color: rgba(233, 231, 231, 0.686);
           align-items: center;
@@ -484,4 +484,16 @@ section#contact {
 
   #credit{
     color: blueviolet;
+  }
+
+  .contact{
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  iframe{
+
   }
