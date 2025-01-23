@@ -325,9 +325,10 @@ section#contact {
 
 /* /// Carousel /// */
   section {
-      background-color: rgb(36, 36, 36);
+      background-color: rgba(0, 0, 0, 0.984);
       padding: 50px 0;
       padding-top: 120px;
+      height: 950px;
   }
   
   .container { 
@@ -335,6 +336,14 @@ section#contact {
       margin: 0 auto;
       padding: 0 20px;
   }
+  .container h1 {
+    color: #d1d1d1f7;
+    background-color: #d8a2f2cb;
+    font-weight:900;
+    letter-spacing: 1rem;
+    
+  }
+
   
   .carousel {
       display: block;
@@ -423,9 +432,9 @@ section#contact {
       
       .credit {
           margin-top: 1rem;
-          color: rgb(218, 11, 11);
+          color: rgb(0, 0, 0);
           display: flex;        
-          background-color: rgba(233, 231, 231, 0.686);
+          background-color: rgba(233, 231, 231, 0.955);
           align-items: center;
           justify-content: center;
 
