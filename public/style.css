@@ -338,9 +338,10 @@ section#contact {
   }
   .container h1 {
     color: #d1d1d1f7;
-    background-color: #d8a2f2cb;
+    background-color: #cb96e4d6;
     font-weight:900;
     letter-spacing: 1rem;
+    text-shadow: 0 3px 4px rgba(226, 175, 252, 0.407);
     
   }
 
