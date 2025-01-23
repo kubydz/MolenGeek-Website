@@ -630,7 +630,7 @@ section#contact {
 .formation-coding,
 .formation-marketing,
 .formations-courtes {
-  margin: 5rem;
+  /* margin: 5rem; */
   display: flex; 
   flex-direction: row; 
   justify-content: center; 
@@ -639,14 +639,12 @@ section#contact {
   gap: 6rem;
   /* margin-bottom: 70px;  */
   /* margin-top: 50px;  */
-  background-color: #212224;
+  background-color: #0f0f11;
   color: white;
   height: 40em;
   
 }
-.formations-molengeek{
-  margin: 5rem;
-}
+
 
 .formation-coding,
 .formation-marketing{
@@ -668,12 +666,16 @@ section#contact {
   align-items: center;
   display: flex;
   color: white;
-  font-size: x-large;
-  background-color: white
+  font-size: 60px;
+  /* background-color: rgba(0, 0, 0, 0.989); */
   /* background-image: url(./img/chalet.jpeg.webp); */
   /* margin-top:39px; */
-  height: 180px;
+  background-image: url(/public/img/154.png);
+  background-repeat: repeat;
+  background-position: -50px 400px;
+  height:180px;
   text-shadow: 0 3px 5px rgba(0, 0, 0, 0.703);
+
 
   
 }
@@ -682,7 +684,7 @@ section#contact {
   padding: 30px ;
   font-size:17px;
   font-family: 'Montserrat';
-  background-color:#9a9ff63a;
+  background-color:#3031453a;
   border-radius: 15px;
   color: #ffffff;
   word-spacing: 2px;
@@ -693,5 +695,5 @@ section#contact {
 
 } 
 footer{
-  border-top: solid rgb(133, 128, 128);
+  border-top: solid rgb(91, 87, 87);
 }
