@@ -41,14 +41,14 @@
 // navItems.forEach((nav) => {
 //   nav.addEventListener("click", toggleNav);
 // });
-const hamburgerMenu = document.querySelector("#hamburger-menu")
-const overlay = document.querySelector("#overlay")
-const nav1 = document.querySelector("#nav-1")
-const nav2 = document.querySelector("#nav-2")
-const nav3 = document.querySelector("#nav-3")
-const nav4 = document.querySelector("#nav-4")
-const nav5 = document.querySelector("#nav-5")
-const navItems = [nav1, nav2, nav3, nav4, nav5]
+let hamburgerMenu = document.querySelector("#hamburger-menu")
+let overlay = document.querySelector("#overlay")
+let nav1 = document.querySelector("#nav-1")
+let nav2 = document.querySelector("#nav-2")
+let nav3 = document.querySelector("#nav-3")
+let nav4 = document.querySelector("#nav-4")
+let nav5 = document.querySelector("#nav-5")
+let navItems = [nav1, nav2, nav3, nav4, nav5]
 
 // Control Navigation Animation
 function navAnimation(val1, val2) {
