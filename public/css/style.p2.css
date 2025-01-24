@@ -1,0 +1,204 @@
+body{
+    background-image: url(/public/img/154.png);
+}
+* {
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(255, 255, 255, 0);
+  }
+  
+  html {
+   
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+  }
+  
+  a:link,
+  a:visited {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s;
+  }
+/* OVERLAY */
+.overlay {
+    z-index: 9;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    height: 100svh;
+    background-color: rgba(0, 0, 0, 0.643);
+  }
+  
+  .overlay-slide-right {
+    transition: all 0.4s ease-in-out;
+    transform: translateX(0);
+  }
+  
+  .overlay-slide-left {
+    transition: all 0.8s ease-in-out;
+    transform: translateX(-100%);
+  }
+  
+  /* NAV MENU ITEMS */
+  nav ul {
+    height: 100vh;
+    height: 100svh;
+    list-style: none;
+  }
+  
+  nav ul li {
+    height: 20%;
+  }
+  
+  nav li:nth-of-type(1) {
+    background-color: rgba(50, 77, 85, 1);
+  }
+  
+  nav li:nth-of-type(2) {
+    background-color: rgba(3, 11, 15, 1);
+  }
+  
+  nav li:nth-of-type(3) {
+    background-color: rgba(198, 216, 224, 1);
+  }
+  
+  nav li:nth-of-type(4) {
+    background-color: rgba(29, 55, 65, 1);
+  
+  }
+  
+  nav li:nth-of-type(5) {
+    background-color: rgba(128, 154, 161, 1);
+  }
+  
+  nav li a {
+    letter-spacing: 0.4rem;
+    font-size: 2rem;
+  }
+  
+  nav li a:hover,
+  nav li a:active {
+    transform: scale(1.2);
+  }
+  
+  /***********************/
+  /* NAV SLIDE IN ANIMATION */
+  /***********************/
+  
+  .slide-in-1 {
+    animation: slide-in 0.4s linear 0.2s both;
+  }
+  
+  .slide-in-2 {
+    animation: slide-in 0.4s linear 0.4s both;
+  }
+  
+  .slide-in-3 {
+    animation: slide-in 0.4s linear 0.6s both;
+  }
+  
+  .slide-in-4 {
+    animation: slide-in 0.4s linear 0.8s both;
+  }
+  
+  .slide-in-5 {
+    animation: slide-in 0.4s linear 1s both;
+  }
+  
+  @keyframes slide-in {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  
+  /***********************/
+  /* NAV SLIDE OUT ANIMATION */
+  /***********************/
+  
+  .slide-out-1 {
+    animation: slide-out 0.3s linear 0.5s both;
+  }
+  
+  .slide-out-2 {
+    animation: slide-out 0.3s linear 0.4s both;
+  }
+  
+  .slide-out-3 {
+    animation: slide-out 0.3s linear 0.3s both;
+  }
+  
+  .slide-out-4 {
+    animation: slide-out 0.3s linear 0.2s both;
+  }
+  
+  .slide-out-5 {
+    animation: slide-out 0.3s linear 0.1s both;
+  }
+  
+  @keyframes slide-out {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  
+  /***********************/
+  /* HAMBURGER MENU ANIMATION */
+  /***********************/
+  
+  .hamburger-menu {
+    position: fixed;
+    top: 1rem;
+    right: 2rem;
+    z-index: 10;
+    cursor: pointer;
+  }
+  
+  .menu-bar1,
+  .menu-bar2,
+  .menu-bar3 {
+    width: 3.5rem;
+    height: 0.2rem;
+    background-color: #fff;
+    margin: 0.8rem 0;
+    transition: 0.4s;
+  }
+  
+  .menu-bar2 {
+    width: 2rem;
+    margin-left: auto;
+  }
+  
+  /* ROTATE FIRST BAR */
+  .active .menu-bar1 {
+    transform: rotate(-45deg) translate(-0.7rem, 0.8rem);
+  }
+  
+  /* FADE OUT SECOND BAR */
+  .active .menu-bar2 {
+    opacity: 0;
+  }
+  
+  /* ROTATE LAST BAR */
+  .active .menu-bar3 {
+    transform: rotate(45deg) translate(-0.6rem, -0.8rem);
+  }
+  .center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+  }
+  
+  
