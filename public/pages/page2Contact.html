@@ -1,11 +1,96 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Page contact</title>
+    <link rel="stylesheet" href="/public/style.css">
 </head>
 <body>
-    
+    <div class="overlay overlay-slide-left" id="overlay">
+        <nav>
+          <ul>
+            <li id="nav-1" class="slide-out-1 center">
+              <a href="#home" class="center">Accueil</a>
+            </li>
+            <li id="nav-2" class="slide-out-2 center">
+              <a href="#ancrepropos" class="center">A Propos</a>
+            </li>
+            <li id="nav-3" class="slide-out-3 center">
+              <a href="#formations" class="center">Formations</a>
+            </li>
+            <li id="nav-4" class="slide-out-4 center">
+              <a href="#projects" class="center">Presse</a>
+            </li>
+            <li id="nav-5" class="slide-out-5 center">
+              <a href="#contact" class="center">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <!-- HAMBURGER MENU -->
+      <div class="hamburger-menu" id="hamburger-menu">
+        <div class="menu-bar1"></div>
+        <div class="menu-bar2"></div>
+        <div class="menu-bar3"></div>
+      </div>
+      <!-- SECTIONS -->
+      <section id="home" class="center">
+        <div class="content">
+        <a href="/index.html"><p class="logo">MolenGeek</p></a>
+        <div class="form-main">
+            <div class="main-wrapper">
+              <h2 class="form-head">Contactez-Nous</h2>
+              <form class="form-wrapper">
+                <div class="form-card">
+                  <input
+                    class="form-input"
+                    type="text"
+                    name="full_name"
+                    required="required"
+                  />
+                  <label class="form-label" for="full_name">Nom / Prénom</label>
+                </div>
+      
+                <div class="form-card">
+                  <input
+                    class="form-input"
+                    type="email"
+                    name="email"
+                    required="required"
+                  />
+                  <label class="form-label" for="email">Email</label>
+                </div>
+      
+                <div class="form-card">
+                  <input
+                    class="form-input"
+                    type="number"
+                    name="phone_number"
+                    required="required"
+                  />
+                  <label class="form-label" for="phone_number">Numéro de Téléphone</label>
+                </div>
+      
+                <div class="form-card">
+                  <textarea
+                    class="form-textarea"
+                    maxlength="420"
+                    rows="3"
+                    name="phone_number"
+                    required="required"
+                  ></textarea>
+                  <label class="form-textarea-label" for="phone_number"
+                    >Adresse</label
+                  >
+                </div> 
+                <div class="btn-wrap">
+                  <button style="color: rgb(233, 234, 235);"> Envoyer </button>
+                </div>
+              </form>
+            </div>
+          </div>
+          
+    <script src="/public/main.js"></script>
 </body>
 </html>
