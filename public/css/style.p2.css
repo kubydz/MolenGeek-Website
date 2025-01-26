@@ -204,35 +204,42 @@ body{
   #contact{
 
     background-image: url(/public/img/154.png);
+    
     display: flex;
     justify-content: center;
+    
   }
 
   
   iframe{
-    border: solid 5px rgba(145, 195, 235, 0.701);
+    border: solid 1px black;
+    box-shadow: 0px 4px 10px #000000;
     border-radius: 5px;
-    width: 80rem;
+    width: 70rem;
     height:320px;
-    margin-right: 9px;
+    
 
   }
   .loca{
 
-    background-color: #090808;
+    background-image: url(/public/img/localisation.jpg);
+    background-position-y: 9px;
     width: 90%;
     height: 500px;
     justify-content: center;
     align-items: center;
     display: flex;
-    gap: 10px;
+    gap: 8rem;
    
 
   }
   .loca h1{
-    color:rgb(215, 224, 230) ;
-    box-shadow: 0px 1px #545562;
+    color:rgb(0, 0, 0) ;
+    font-style:normal;
+    background-color: #6e8bf6;
+    box-shadow: 4px 5px 4px 4px #0000007c;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 10em;
   }
    /* FOOTER */
    footer { 
