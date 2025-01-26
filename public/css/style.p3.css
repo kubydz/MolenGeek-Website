@@ -1,11 +1,10 @@
-body{
+/* body{
     background-image: url(/public/img/buro.jpg);
-    background-repeat:repeat-x;
+    background-repeat:inherit;
 
     
-}
+} */
 * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
     background-color: rgba(255, 255, 255, 0);
@@ -13,10 +12,28 @@ body{
   }
   
   html {
-   
     font-size: 62.5%;
-    overflow-x: hidden;
-    scroll-behavior: smooth;
+    /* overflow-x: hidden;
+    scroll-behavior: smooth; */
+  }
+  .container h1 {
+    font-family:   "Tahoma";
+    font-style:oblique ;
+    position: relative;
+    top: -38rem;
+
+    width: 6em; 
+    height: 2em;
+    color: rgb(0, 0, 0);
+    /* box-shadow: 0px 4px 10px #777; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5em;
+    background-color: rgb(255, 255, 255);
+    border-radius: 70%;
+    
+    
   }
   
   a:link,
@@ -125,7 +142,7 @@ body{
   
   /***********************/
   /* NAV SLIDE OUT ANIMATION */
-  /***********************/
+  
   
   .slide-out-1 {
     animation: slide-out 0.3s linear 0.5s both;
@@ -156,7 +173,7 @@ body{
     }
   }
   
-  /***********************/
+  
   /* HAMBURGER MENU ANIMATION */
   /***********************/
   
@@ -208,7 +225,10 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 110vh;
+    background-image: url(/public/img/buro.jpg);
+    background-repeat:inherit;
+
 }
 
 /* body {
@@ -221,9 +241,9 @@ body{
     height: 800px;
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 51.6%;
     transform: translate(-50%, -50%);
-    margin-top: 15rem;
+    margin-top: 18rem;
 }
 
 .body404,
@@ -545,4 +565,86 @@ body{
     left: 1.5rem;
     font-size: 2.2rem;
     letter-spacing: 0.3rem;
+  }
+  
+
+
+  /* Faq card */
+
+  body {
+    background-color: #05010d;
+    font-family: 'Lato', sans-serif;
+    width: 80%;
+    padding: 50px;
+    margin: 0 auto;
+  }
+  
+  .faq-section {
+    max-width: 760px;
+    margin: 0 auto;
+  }
+  
+  header {
+    margin-bottom: 70px;
+  }
+  
+  header > p {
+    font-size: 22px;
+    color: #AEB9C6;
+  }
+  
+  h2 {
+    font-size: 52px;
+    color: #f4f4f6;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  details {
+    cursor: pointer;
+  }
+  
+  summary:focus-visible {
+    outline: 2px solid orange;
+    outline-offset: 8px;
+    border-radius: 4px;
+  }
+  
+  h4 {
+    width: 760px;
+  }
+  
+  summary {
+    font-size: 20px;
+    color: #f4f4f6;
+    display: flex;
+    justify-item: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+  }
+  
+  summary::marker {
+    display: none;
+    content: "";
+  }
+  
+  span {
+    margin-top: 4px;
+    color: #f4f4f6;
+  }
+  
+  details > p {
+    max-width: 650px;
+    color: #AEB9C6;
+    font-size: 18px;
+    line-height: 155%;
+    letter-spacing: .1px;
+    margin-bottom: 40px;
+    padding-left: 10px;
+  }
+  
+  hr {
+    border: 1px solid #404E5C;
+    margin-block-end: 30px;
   }
