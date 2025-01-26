@@ -15,7 +15,7 @@
     font-family:   "Tahoma";
     font-style:oblique ;
     position: relative;
-    top: -38rem;
+    top: -34rem;
 
     width: 6em; 
     height: 2em;
@@ -569,7 +569,7 @@
     background-color: #05010d;
     font-family: 'Lato', sans-serif;
     width: 100%;
-    margin: 0 auto;
+   
   }
   
   .faq-section {
@@ -743,3 +743,25 @@
     .copyright { font-size: 14px; }
     .f-logo { font-size: 16px; }
 }
+.container h3{
+    z-index: 1;
+    background-color: #f3f3f3;
+    width: 60em;
+    height: 140px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: solid 1px black;
+}
+@media screen and (max-width: 768px) {
+    .container h3 {
+      width: 90%; /* Ajuste la largeur à 90% de l'écran */
+      height: auto; /* Laisse la hauteur s'adapter au contenu */
+      font-size: 16px; /* Réduit la taille du texte pour petits écrans */
+      padding: 10px; /* Ajoute un padding pour le confort visuel */
+      border: none; /* Optionnel : retirer la bordure */
+    }
+  }
