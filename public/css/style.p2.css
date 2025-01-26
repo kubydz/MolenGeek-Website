@@ -350,6 +350,8 @@ body > div {
 .section-contact {
     padding: 120px;
 		background-color: #fff;
+    border: solid rgba(169, 17, 17, 0.782);
+   
 }
 
 .section-contact .header-section .title {
@@ -488,4 +490,5 @@ body > div {
 }
 .container{
   height: 1000px;
+  border-bottom: solid  rgba(245, 245, 220, 0.591);
 }
