@@ -492,3 +492,19 @@ body > div {
   height: 1000px;
   border-bottom: solid  rgba(245, 245, 220, 0.591);
 }
+.partena { 
+  width: 100%;
+  background-color: white;
+  height: 130px;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  
+
+
+}
+.partena img {
+  width: 140px;
+  height: 80px;
+  margin: 20px;
+}
