@@ -706,4 +706,20 @@ section#contact {
 footer{
   border-top: solid rgb(91, 87, 87);
 }
+/* /// Partenariat /// */
+.partena { 
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  height: 130px;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  
 
+
+}
+.partena img {
+  width: 140px;
+  height: 80px;
+  margin: 20px;
+}
